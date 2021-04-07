@@ -1,6 +1,7 @@
 # vax_apt_alerter
 Covid Vaccine Appointment Alerter - checks vaccinespotter.org and uses twilio to text you if an appointment is available near you
 
+N.B. doesn't notify you of currently available appointments, only changes. There's no point running this if you check https://www.vaccinespotter.org and see there are already appointments available for you
 # Installation instructions
 
 1. `git clone https://github.com/MarvinT/vax_apt_alerter.git`
