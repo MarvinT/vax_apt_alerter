@@ -6,6 +6,7 @@ from twilio.rest import Client
 
 ### PARAMETERS ###
 # Home location, where to measure distance from
+# can use https://www.latlong.net/convert-address-to-lat-long.html
 longitude = -75.2
 latitude = 39.9
 # STATE, only looks for appointments from this state
