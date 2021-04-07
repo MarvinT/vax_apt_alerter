@@ -41,7 +41,6 @@ def main():
         data = requests.get(
             f"https://www.vaccinespotter.org/api/v0/states/{state}.json"
         ).json()
-        clear_output(wait=True)
         print("counter:", i)
         for feature in data["features"]:
             if feature["properties"]["appointments_available"]:
